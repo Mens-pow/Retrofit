@@ -1,4 +1,4 @@
-package ru.mustakimov.retrofittutorial;
+package ru.mustakimov.retrofittutorial.adapter;
 
 import android.os.Build;
 import android.support.v7.widget.RecyclerView;
@@ -10,9 +10,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by misha on 31.10.2016.
- */
+import ru.mustakimov.retrofittutorial.R;
+import ru.mustakimov.retrofittutorial.model.PostModel;
 
 public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> {
 
